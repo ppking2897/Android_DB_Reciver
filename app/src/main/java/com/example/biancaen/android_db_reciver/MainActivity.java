@@ -49,8 +49,10 @@ public class MainActivity extends AppCompatActivity {
             @Override
             public void run() {
                 try {
-                    MultipartUtility mu = new MultipartUtility("http://10.0.3.2/Android_Query02.php?accountId="+text, "UTF-8");
+                    MultipartUtility mu = new MultipartUtility("https://android-test-db-ppking2897.c9users.io/DataBase/AccountQuery02.php?accountId="+text, "UTF-8");
                     List<String> ret = mu.finish();
+
+                    https://android-test-db-ppking2897.c9users.io/DataBase/AccountQuery02.php
 
                     parseJSON(ret.toString());
 
