@@ -52,7 +52,7 @@ public class MainActivity extends AppCompatActivity {
                     MultipartUtility mu = new MultipartUtility("https://android-test-db-ppking2897.c9users.io/DataBase/AccountQuery02.php?accountId="+text, "UTF-8");
                     List<String> ret = mu.finish();
 
-                    https://android-test-db-ppking2897.c9users.io/DataBase/AccountQuery02.php
+//                    https://android-test-db-ppking2897.c9users.io/DataBase/AccountQuery02.php
 
                     parseJSON(ret.toString());
 
